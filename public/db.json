@@ -1,0 +1,389 @@
+{
+  "Recettes": [
+    {
+      "id": 1,
+      "title": "Lasagnes Bolognaises",
+      "description": "Un plat traditionnel italien avec des couches de pâtes, de sauce à la viande et de fromage fondu.",
+      "ingredients": ["Pâtes à lasagnes", "Viande hachée", "Tomates", "Oignon", "Ail", "Fromage râpé", "Béchamel"],
+      "instructions": [
+        "Faire revenir l'oignon et l'ail dans une poêle jusqu'à ce qu'ils soient dorés.",
+        "Ajouter la viande hachée et faire cuire jusqu'à ce qu'elle soit bien dorée.",
+        "Ajouter les tomates coupées en dés et laisser mijoter.",
+        "Préparer la sauce béchamel dans une casserole à part.",
+        "Dans un plat à gratin, alterner des couches de pâtes, de sauce à la viande et de sauce béchamel.",
+        "Saupoudrer de fromage râpé entre chaque couche.",
+        "Cuire au four à 180°C pendant environ 30 minutes jusqu'à ce que le dessus soit doré et croustillant."
+      ],
+      "category": "Plat principal",
+      "prepTime": 90,
+      "servings": 8,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Salade César",
+      "description": "Une salade fraîche et croquante avec des croutons, du parmesan et une sauce César crémeuse.",
+      "ingredients": ["Laitue romaine", "Poulet grillé", "Croûtons", "Parmesan", "Sauce César"],
+      "instructions": [
+        "Laver et sécher les feuilles de laitue romaine.",
+        "Couper le poulet grillé en morceaux.",
+        "Mélanger la laitue, les morceaux de poulet et les croûtons dans un grand bol.",
+        "Ajouter la sauce César et mélanger jusqu'à ce que tout soit bien enrobé.",
+        "Saupoudrer de parmesan râpé avant de servir."
+      ],
+      "category": "Entrée",
+      "prepTime": 20,
+      "servings": 4,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tarte aux Fraises",
+      "description": "Une tarte légère et fruitée avec une croûte croustillante et des fraises fraîches.",
+      "ingredients": ["Pâte brisée", "Fraises fraîches", "Gelée de fruits rouges", "Crème pâtissière"],
+      "instructions": [
+        "Préchauffer le four à 180°C.",
+        "Étaler la pâte brisée dans un moule à tarte et la piquer à la fourchette.",
+        "Faire cuire la pâte à blanc pendant 15 minutes jusqu'à ce qu'elle soit dorée.",
+        "Laisser refroidir complètement sur une grille.",
+        "Étaler une couche épaisse de crème pâtissière refroidie sur le fond de tarte.",
+        "Disposer les fraises coupées en quartiers sur la crème pâtissière.",
+        "Faire chauffer légèrement la gelée de fruits rouges et en napper les fraises.",
+        "Réfrigérer pendant au moins 1 heure avant de servir."
+      ],
+      "category": "Dessert",
+      "prepTime": 45,
+      "servings": 6,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Ratatouille Provençale",
+      "description": "Un plat végétarien du sud de la France avec des légumes mijotés dans une sauce tomate.",
+      "ingredients": ["Aubergine", "Courgette", "Poivron rouge", "Tomates", "Oignon", "Ail", "Herbes de Provence", "Huile d'olive"],
+      "instructions": [
+        "Éplucher et couper tous les légumes en tranches.",
+        "Faire revenir l'oignon et l'ail dans une grande poêle avec de l'huile d'olive.",
+        "Ajouter les légumes coupés et faire cuire jusqu'à ce qu'ils soient tendres.",
+        "Ajouter les tomates concassées et les herbes de Provence.",
+        "Laisser mijoter à feu doux pendant 30-40 minutes jusqu'à ce que tous les légumes soient bien cuits.",
+        "Assaisonner avec du sel et du poivre selon votre goût et servir chaud."
+      ],
+      "category": "Plat principal",
+      "prepTime": 60,
+      "servings": 6,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Tiramisu",
+      "description": "Un dessert italien classique avec des biscuits imbibés de café et une crème mascarpone légère.",
+      "ingredients": ["Biscuits à la cuillère", "Café fort", "Mascarpone", "Œufs", "Sucre", "Cacao en poudre"],
+      "instructions": [
+        "Battre les jaunes d'œufs avec le sucre jusqu'à ce que le mélange blanchisse.",
+        "Ajouter le mascarpone et bien mélanger jusqu'à obtenir une crème lisse.",
+        "Battre les blancs d'œufs en neige ferme et les incorporer délicatement au mélange précédent.",
+        "Tremper rapidement les biscuits dans le café et en tapisser le fond d'un plat.",
+        "Étaler une couche de crème mascarpone sur les biscuits.",
+        "Répéter l'opération jusqu'à épuisement des ingrédients, en terminant par une couche de crème.",
+        "Saupoudrer généreusement de cacao en poudre sur le dessus.",
+        "Réfrigérer pendant au moins 4 heures avant de servir."
+      ],
+      "category": "Dessert",
+      "prepTime": 30,
+      "servings": 8,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Sushi",
+      "description": "Un plat japonais de riz vinaigré garni de poisson cru, de légumes et d'algues.",
+      "ingredients": ["Riz à sushi", "Saumon frais", "Avocat", "Concombre", "Algues nori", "Vinaigre de riz", "Sauce soja"],
+      "instructions": [
+        "Faire cuire le riz à sushi selon les instructions sur l'emballage.",
+        "Mélanger le vinaigre de riz avec le riz cuit et laisser refroidir.",
+        "Couper le poisson, l'avocat et le concombre en fines lamelles.",
+        "Disposer une feuille d'algue nori sur une natte en bambou.",
+        "Étaler une fine couche de riz vinaigré sur l'algue nori.",
+        "Ajouter les lamelles de poisson, d'avocat et de concombre sur le riz.",
+        "Rouler fermement à l'aide de la natte en bambou pour former un rouleau.",
+        "Couper le rouleau en tranches et servir avec de la sauce soja."
+      ],
+      "category": "Plat principal",
+      "prepTime": 45,
+      "servings": 4,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Soupe à l'oignon",
+      "description": "Une soupe française riche et réconfortante avec des oignons caramélisés et du fromage gratiné.",
+      "ingredients": ["Oignons", "Beurre", "Farine", "Bouillon de bœuf", "Vin blanc sec", "Gruyère râpé", "Pain rassis"],
+      "instructions": [
+        "Émincer les oignons finement.",
+        "Faire fondre le beurre dans une grande casserole et faire revenir les oignons jusqu'à ce qu'ils soient dorés et caramélisés.",
+        "Saupoudrer de farine sur les oignons et mélanger jusqu'à ce que la farine soit absorbée.",
+        "Verser le bouillon de bœuf et le vin blanc sec dans la casserole.",
+        "Porter à ébullition, puis réduire le feu et laisser mijoter pendant 30 minutes.",
+        "Griller des tranches de pain rassis avec du gruyère râpé au four jusqu'à ce que le fromage soit doré et croustillant.",
+        "Servir la soupe chaude avec une tranche de pain gratiné."
+      ],
+      "category": "Entrée",
+      "prepTime": 60,
+      "servings": 6,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Poulet Tandoori",
+      "description": "Des morceaux de poulet marinés dans un mélange d'épices tandoori et cuits au four.",
+      "ingredients": ["Poulet", "Yaourt nature", "Jus de citron", "Garam masala", "Curcuma", "Paprika", "Cumin"],
+      "instructions": [
+        "Mélanger le yaourt nature avec les épices (garam masala, curcuma, paprika, cumin) et le jus de citron.",
+        "Mariner les morceaux de poulet dans ce mélange pendant au moins 2 heures au réfrigérateur.",
+        "Préchauffer le four à 200°C.",
+        "Disposer les morceaux de poulet marinés sur une plaque de cuisson et cuire au four pendant 25-30 minutes, jusqu'à ce que le poulet soit bien cuit.",
+        "Servir chaud avec du riz basmati et une sauce à la menthe."
+      ],
+      "category": "Plat principal",
+      "prepTime": 120,
+      "servings": 4,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Risotto aux Champignons",
+      "description": "Un plat crémeux et savoureux avec du riz Arborio, des champignons et du parmesan.",
+      "ingredients": ["Riz Arborio", "Champignons", "Oignon", "Vin blanc sec", "Bouillon de légumes", "Parmesan", "Beurre"],
+      "instructions": [
+        "Faire chauffer le bouillon de légumes dans une casserole et le maintenir chaud.",
+        "Faire revenir l'oignon dans une grande poêle avec du beurre jusqu'à ce qu'il soit translucide.",
+        "Ajouter les champignons tranchés et faire cuire jusqu'à ce qu'ils soient dorés.",
+        "Ajouter le riz Arborio dans la poêle et mélanger jusqu'à ce qu'il devienne translucide.",
+        "Verser le vin blanc sec et laisser mijoter jusqu'à ce que le liquide soit absorbé.",
+        "Ajouter une louche de bouillon chaud au riz, en remuant constamment jusqu'à absorption.",
+        "Répéter l'opération jusqu'à ce que le riz soit crémeux et cuit al dente.",
+        "Retirer du feu et incorporer le parmesan râpé.",
+        "Servir chaud avec une pincée de poivre noir moulu."
+      ],
+      "category": "Plat principal",
+      "prepTime": 45,
+      "servings": 6,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Gâteau au Chocolat",
+      "description": "Un dessert moelleux et chocolaté qui ravira les amateurs de chocolat.",
+      "ingredients": ["Chocolat noir", "Beurre", "Sucre", "Œufs", "Farine", "Levure chimique", "Sel"],
+      "instructions": [
+        "Préchauffer le four à 180°C et chemiser un moule à gâteau de papier sulfurisé.",
+        "Faire fondre le chocolat noir et le beurre au bain-marie.",
+        "Dans un grand bol, battre les œufs avec le sucre jusqu'à ce que le mélange double de volume.",
+        "Incorporer délicatement le mélange de chocolat fondu aux œufs battus.",
+        "Tamiser la farine, la levure chimique et le sel dans le bol et mélanger jusqu'à obtenir une pâte lisse.",
+        "Verser la pâte dans le moule préparé et lisser le dessus.",
+        "Cuire au four pendant environ 25-30 minutes, jusqu'à ce qu'un cure-dent inséré au centre en ressorte propre.",
+        "Laisser refroidir dans le moule avant de démouler et de servir."
+      ],
+      "category": "Dessert",
+      "prepTime": 60,
+      "servings": 8,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Poulet au Curry",
+      "description": "Des morceaux de poulet mijotés dans une sauce crémeuse au curry indien.",
+      "ingredients": ["Poulet", "Oignon", "Ail", "Gingembre", "Curry en poudre", "Crème fraîche", "Coriandre"],
+      "instructions": [
+        "Faire revenir l'oignon, l'ail et le gingembre dans une grande poêle avec de l'huile jusqu'à ce qu'ils soient dorés.",
+        "Ajouter le curry en poudre et cuire jusqu'à ce qu'il dégage son parfum.",
+        "Ajouter les morceaux de poulet et faire cuire jusqu'à ce qu'ils soient dorés.",
+        "Verser la crème fraîche dans la poêle et mélanger jusqu'à ce que le poulet soit bien enrobé de sauce.",
+        "Laisser mijoter à feu doux pendant 15-20 minutes jusqu'à ce que le poulet soit cuit.",
+        "Servir chaud saupoudré de coriandre fraîche et accompagné de riz basmati."
+      ],
+      "category": "Plat principal",
+      "prepTime": 45,
+      "servings": 4,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Salade Caprese",
+      "description": "Une salade italienne rafraîchissante avec des tomates, de la mozzarella et du basilic.",
+      "ingredients": ["Tomates", "Mozzarella", "Feuilles de basilic", "Huile d'olive extra vierge", "Vinaigre balsamique", "Sel", "Poivre"],
+      "instructions": [
+        "Couper les tomates et la mozzarella en tranches épaisses.",
+        "Disposer les tranches de tomates et de mozzarella sur un plat en alternant.",
+        "Parsemer de feuilles de basilic frais.",
+        "Assaisonner avec du sel et du poivre, puis arroser généreusement d'huile d'olive et de vinaigre balsamique.",
+        "Laisser reposer pendant quelques minutes avant de servir à température ambiante."
+      ],
+      "category": "Entrée",
+      "prepTime": 15,
+      "servings": 2,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Pâtes Carbonara",
+      "description": "Des pâtes italiennes crémeuses avec du bacon croustillant, des œufs et du parmesan.",
+      "ingredients": ["Spaghetti", "Œufs", "Lardons", "Parmesan râpé", "Ail", "Poivre noir"],
+      "instructions": [
+        "Faire cuire les pâtes selon les instructions sur l'emballage.",
+        "Faire revenir les lardons dans une poêle jusqu'à ce qu'ils soient croustillants.",
+        "Dans un grand bol, battre les œufs avec le parmesan râpé et le poivre noir.",
+        "Égoutter les pâtes en réservant une tasse d'eau de cuisson.",
+        "Ajouter les pâtes chaudes dans le bol avec le mélange d'œufs et de fromage, en remuant rapidement pour enrober les pâtes.",
+        "Ajouter les lardons croustillants et un peu d'eau de cuisson réservée si nécessaire pour obtenir une sauce crémeuse.",
+        "Servir immédiatement avec un peu de parmesan supplémentaire et du poivre noir moulu."
+      ],
+      "category": "Plat principal",
+      "prepTime": 30,
+      "servings": 4,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Crème Brûlée",
+      "description": "Un dessert français élégant avec une crème vanillée et une croûte caramélisée.",
+      "ingredients": ["Crème liquide", "Jaunes d'œufs", "Sucre", "Extrait de vanille", "Cassonade"],
+      "instructions": [
+        "Préchauffer le four à 160°C.",
+        "Faire chauffer la crème liquide avec l'extrait de vanille dans une casserole jusqu'à ce qu'elle soit chaude mais pas bouillante.",
+        "Dans un grand bol, fouetter les jaunes d'œufs avec le sucre jusqu'à ce que le mélange blanchisse.",
+        "Verser lentement la crème chaude sur le mélange d'œufs en remuant constamment.",
+        "Passer le mélange à travers un tamis fin pour retirer les grumeaux.",
+        "Répartir la crème dans des ramequins et les placer dans un plat allant au four.",
+        "Verser de l'eau chaude dans le plat jusqu'à mi-hauteur des ramequins.",
+        "Cuire au four pendant 30-35 minutes, jusqu'à ce que la crème soit prise mais encore légèrement tremblotante au centre.",
+        "Laisser refroidir complètement à température ambiante, puis réfrigérer pendant au moins 2 heures ou toute une nuit.",
+        "Juste avant de servir, saupoudrer généreusement de cassonade sur le dessus et caraméliser au chalumeau.",
+        "Laisser reposer quelques minutes jusqu'à ce que le caramel durcisse, puis servir."
+      ],
+      "category": "Dessert",
+      "prepTime": 90,
+      "servings": 6,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Pizza Margherita",
+      "description": "Une pizza italienne classique avec de la sauce tomate, de la mozzarella et du basilic frais.",
+      "ingredients": ["Pâte à pizza", "Sauce tomate", "Mozzarella", "Feuilles de basilic", "Huile d'olive", "Sel"],
+      "instructions": [
+        "Préchauffer le four à la température la plus élevée (généralement 250°C) avec une plaque à pizza à l'intérieur.",
+        "Étaler la pâte à pizza sur une surface légèrement farinée jusqu'à obtenir l'épaisseur désirée.",
+        "Étaler la sauce tomate sur la pâte, en laissant une bordure libre.",
+        "Disposer des tranches de mozzarella sur la sauce tomate.",
+        "Transférer la pizza sur la plaque chaude et cuire au four pendant 10-12 minutes, jusqu'à ce que la croûte soit dorée et le fromage fondu.",
+        "Retirer du four et garnir de feuilles de basilic frais.",
+        "Arroser d'un filet d'huile d'olive et saupoudrer de sel avant de servir."
+      ],
+      "category": "Plat principal",
+      "prepTime": 30,
+      "servings": 4,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Salade Niçoise",
+      "description": "Une salade fraîcheur méditerranéenne avec des légumes, du thon et des œufs durs.",
+      "ingredients": ["Salade verte", "Thon en boîte", "Œufs", "Tomates", "Haricots verts", "Olives noires", "Anchois"],
+      "instructions": [
+        "Cuire les œufs dans une casserole d'eau bouillante pendant 10 minutes, puis les écaler et les couper en quartiers.",
+        "Faire blanchir les haricots verts dans de l'eau bouillante salée pendant 3-4 minutes, puis les refroidir immédiatement dans de l'eau glacée.",
+        "Disposer la salade verte dans un grand bol ou sur une assiette.",
+        "Ajouter les tomates coupées en quartiers, les haricots verts blanchis, les œufs durs, le thon émietté, les olives noires et les anchois.",
+        "Assaisonner avec du sel, du poivre et un filet d'huile d'olive.",
+        "Servir frais avec une tranche de pain grillé."
+      ],
+      "category": "Entrée",
+      "prepTime": 20,
+      "servings": 4,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Moussaka Grecque",
+      "description": "Un plat grec traditionnel avec des couches d'aubergines, de viande hachée et de béchamel.",
+      "ingredients": ["Aubergines", "Viande hachée d'agneau ou de bœuf", "Oignon", "Ail", "Tomates", "Cannelle", "Fromage râpé"],
+      "instructions": [
+        "Couper les aubergines en tranches épaisses, les saler et les laisser dégorger pendant 30 minutes.",
+        "Faire revenir l'oignon et l'ail hachés dans une poêle avec de l'huile d'olive.",
+        "Ajouter la viande hachée et cuire jusqu'à ce qu'elle soit dorée.",
+        "Ajouter les tomates concassées et la cannelle, puis laisser mijoter pendant 20 minutes.",
+        "Préchauffer le four à 180°C.",
+        "Rincer les tranches d'aubergine et les faire griller des deux côtés.",
+        "Dans un plat allant au four, alterner les couches d'aubergines grillées, de sauce à la viande et de fromage râpé, en terminant par une couche de béchamel.",
+        "Cuire au four pendant 45 minutes, jusqu'à ce que le dessus soit doré.",
+        "Laisser reposer avant de servir chaud."
+      ],
+      "category": "Plat principal",
+      "prepTime": 90,
+      "servings": 6,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Tarte aux Pommes",
+      "description": "Une délicieuse tarte aux pommes avec une pâte croustillante et une garniture fondante.",
+      "ingredients": ["Pâte brisée", "Pommes", "Sucre", "Cannelle", "Beurre"],
+      "instructions": [
+        "Préchauffer le four à 200°C.",
+        "Étaler la pâte brisée dans un moule à tarte et piquer le fond avec une fourchette.",
+        "Peler, épépiner et couper les pommes en tranches fines.",
+        "Disposer les tranches de pommes sur le fond de tarte en les superposant légèrement.",
+        "Saupoudrer de sucre et de cannelle sur les pommes, puis parsemer de petits morceaux de beurre.",
+        "Cuire au four pendant 30-35 minutes, jusqu'à ce que la pâte soit dorée et les pommes tendres.",
+        "Laisser refroidir légèrement avant de servir.",
+        "Optionnel : saupoudrer de sucre glace avant de servir."
+      ],
+      "category": "Dessert",
+      "prepTime": 60,
+      "servings": 8,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Couscous Marocain",
+      "description": "Un plat traditionnel marocain avec des grains de couscous, des légumes et de la viande.",
+      "ingredients": ["Couscous", "Poulet", "Carottes", "Courgettes", "Poivrons", "Oignon", "Raisins secs"],
+      "instructions": [
+        "Cuire le poulet dans une grande casserole avec de l'huile d'olive jusqu'à ce qu'il soit doré de tous les côtés.",
+        "Ajouter les oignons émincés et faire revenir jusqu'à ce qu'ils soient translucides.",
+        "Ajouter les carottes coupées en rondelles, les courgettes et les poivrons coupés en dés, puis faire revenir quelques minutes.",
+        "Verser suffisamment d'eau pour couvrir les légumes et ajouter les raisins secs.",
+        "Saler, poivrer et ajouter les épices (comme le cumin, le curcuma et le gingembre).",
+        "Porter à ébullition, puis réduire le feu et laisser mijoter pendant environ 20 minutes, jusqu'à ce que les légumes soient tendres.",
+        "Pendant ce temps, préparer le couscous selon les instructions sur l'emballage.",
+        "Servir le couscous avec le mélange de légumes et de poulet chaud, en arrosant d'un filet d'huile d'olive si désiré."
+      ],
+      "category": "Plat principal",
+      "prepTime": 60,
+      "servings": 6,
+      "img": "./public/cuisinier.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Salade de Fruits Frais",
+      "description": "Une salade colorée et rafraîchissante avec une variété de fruits frais.",
+      "ingredients": ["Fraises", "Pastèque", "Raisins", "Kiwi", "Ananas", "Mangue", "Menthe fraîche"],
+      "instructions": [
+        "Laver, éplucher et couper tous les fruits en morceaux de taille égale.",
+        "Mélanger délicatement tous les fruits dans un grand saladier.",
+        "Ajouter quelques feuilles de menthe fraîche ciselées pour parfumer la salade.",
+        "Réfrigérer pendant au moins 30 minutes avant de servir pour que les saveurs se mélangent.",
+        "Servir frais comme dessert ou en accompagnement."
+      ],
+      "category": "Dessert",
+      "prepTime": 20,
+      "servings": 4,
+      "img": "./public/cuisinier.jpg"
+    }
+  ]
+  
+  
+}
